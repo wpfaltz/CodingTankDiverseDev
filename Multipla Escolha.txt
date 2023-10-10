@@ -1,0 +1,31 @@
+4) 
+
+Int32 numero;
+numero = Convert.ToInt16(!(21 > 21));
+Console.WriteLine(numero);
+
+(21>21) verifica se 21 é maior que 21, o que é falso.
+!(21>21) nega essa expressão, tornando-a verdadeira
+Convert.ToInt16(!(21 > 21)); tenta converter o valor booleano true em um inteiro de 16 bits, o que resulta em 1.
+No entanto, numero é do tipo Int32, então ocorre uma conversão implícita de Int16 para Int32, o que ainda resulta em 1.
+
+Letra C
+
+
+5)
+
+for (int i = -5; i <= 7; i += 3)
+{
+    Console.WriteLine(i);
+}
+
+
+Executará uma vez, quando int i = -5 e imprimirá -5 no console, após isso atualizará i para -2
+Executará uma segunda vez, quando int i = -2 e imprimirá -2 no console, após isso atualizará i para 1
+Executará uma terceira vez, quando int i = 1 e imprimirá 1 no console, após isso atualizará i para 4
+Executará uma quarta vez, quando int i = 4 e imprimirá 4 no console, após isso atualizará i para 7
+Executará uma quinta vez, quando int i = 7 e imprimirá 7 no console, após isso atualizará i para 10
+Então, o programa sairá do for
+
+Letra E
+
